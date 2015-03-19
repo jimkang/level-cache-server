@@ -10,7 +10,7 @@ stop:
 	$(PM2) stop wordnok-cache || echo "Didn't need to stop process."
 
 sync-worktree-to-git:
-  git --work-tree=$(HOMEDIR) --git-dir=$(GITDIR) checkout -f
+	git --work-tree=$(HOMEDIR) --git-dir=$(GITDIR) checkout -f
 
 npm-install:
 	cd $(HOMEDIR)
