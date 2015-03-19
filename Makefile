@@ -1,4 +1,4 @@
-HOMEDIR = $(shell pwd)
+HOMEDIR = /var/www/wordnok-cache
 GITDIR = /var/repos/wordnok-cache.git
 PM2 = $(HOMEDIR)/node_modules/pm2/bin/pm2
 
