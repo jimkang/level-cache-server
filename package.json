@@ -1,0 +1,22 @@
+{
+  "name": "wordnok-cache",
+  "version": "1.0.0",
+  "description": "A memoizing cache server for wordnok.",
+  "main": "start-cache-server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/wordnok-cache.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/wordnok-cache/issues"
+  },
+  "homepage": "https://github.com/jimkang/wordnok-cache",
+  "dependencies": {
+    "multilevel-cache-tools": "^1.0.0",
+    "pm2": "^0.12.8"
+  }
+}
