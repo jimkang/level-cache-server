@@ -8,7 +8,12 @@
     "type": "git",
     "url": "git@github.com:jimkang/wordnok-cache.git"
   },
-  "keywords": [],
+  "keywords": [
+    "wordnik",
+    "cache",
+    "memoize",
+    "leveldb"
+  ],
   "author": "Jim Kang",
   "license": "MIT",
   "bugs": {
