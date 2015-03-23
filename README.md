@@ -6,12 +6,16 @@ A memoizing cache server. It runs on a port (4444 by default), waiting for db re
 Installation
 ------------
 
-Clone this repo, then create a config.js file that looks like this:
+Clone this repo, then create a `server-opts.json` file that looks like this:
 
+    {
+      "dbPath": "my-cache.db",
+      "port": 9999
+    }
 
-    module.exports = {
-      port: 9999
-    };
+(`server-opts.json` is in the .gitignore, so it won't get committed to your repo.)
+
+Also, feel free to edit the Makefile to change the PM2 process name from level-cache to whatever you want.
 
 Usage
 -----
