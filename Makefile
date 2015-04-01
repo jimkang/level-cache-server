@@ -3,14 +3,14 @@ GITDIR = /var/repos/level-cache-server.git
 PM2 = $(HOMEDIR)/node_modules/pm2/bin/pm2
 
 start:
-	$(PM2) start -f start-cache-server.js --name level-cache || \
+	$(PM2) start -f start-cache-server.js --watch --name level-cache || \
 	echo "level-cache has already been started."
 
 stop:
 	$(PM2) stop level-cache || echo "Didn't need to stop process."
 
 start-namedlevels:
-	$(PM2) start -f start-cache-server.js --name namedlevels-cache -- namedlevels-server-opts.json || \
+	$(PM2) start -f start-cache-server.js --watch --name namedlevels-cache -- namedlevels-server-opts.json || \
 	echo "namedlevels-cache has already been started."
 
 stop-namedlevels:

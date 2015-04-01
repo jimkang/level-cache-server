@@ -1,12 +1,12 @@
 {
-  "name": "wordnok-cache",
-  "version": "1.0.0",
-  "description": "A memoizing cache server for wordnok.",
+  "name": "level-cache-server",
+  "version": "1.1.0",
+  "description": "A memoizing cache server.",
   "main": "start-cache-server.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:jimkang/wordnok-cache.git"
+    "url": "git@github.com:jimkang/level-cache-server.git"
   },
   "keywords": [
     "wordnik",
@@ -17,9 +17,9 @@
   "author": "Jim Kang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimkang/wordnok-cache/issues"
+    "url": "https://github.com/jimkang/level-cache-server/issues"
   },
-  "homepage": "https://github.com/jimkang/wordnok-cache",
+  "homepage": "https://github.com/jimkang/level-cache-server",
   "dependencies": {
     "jsonfile": "^2.0.0",
     "lodash": "^3.5.0",
