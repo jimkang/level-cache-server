@@ -11,7 +11,7 @@ if (process.argv.length > 2) {
 var opts = _.defaults(
   jsonfile.readFileSync(__dirname + '/' + serverOptsFilename, {throws: false}) || {},
   {
-    dbPath: 'level-cache.db',
+    dbPath: __dirname + '/' + 'level-cache.db',
     port: 4444
   }
 );
