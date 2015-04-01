@@ -1,6 +1,6 @@
 HOMEDIR = $(shell pwd)
 GITDIR = /var/repos/level-cache-server.git
-PM2 = $(HOMEDIR)/node_modules/pm2/bin/pm2
+PM2 = pm2
 
 start:
 	$(PM2) start -f start-cache-server.js --watch --name level-cache || \
